@@ -128,6 +128,21 @@ public class CustomRecipes {
 			Character.valueOf('O'), Block.obsidian
 		}); 
 		
+		if (Enabling.enableTimeSpring) {	
+			if (checkRegOre("gemEmerald")) {
+				GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(Items.itemTimeSpring), new Object[] {
+				"E ",
+				"CI",
+				"O ",
+				Character.valueOf('E'), "gemEmerald",
+				Character.valueOf('C'), Item.pocketSundial,
+				Character.valueOf('I'), Item.ingotIron,
+				Character.valueOf('O'), Item.eyeOfEnder
+				
+				}));
+			}
+		}
+		
 		
 		
 

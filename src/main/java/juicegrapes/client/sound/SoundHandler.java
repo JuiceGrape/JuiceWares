@@ -10,6 +10,7 @@ public class SoundHandler {
 		// You add them the same way as you add blocks.
 		event.manager.addSound("juicewares:eyeballhit1.ogg");
 		event.manager.addSound("juicewares:eyeballhit2.ogg");
+		event.manager.addSound("juicewares:timeclock.ogg");
 	}
 
 }

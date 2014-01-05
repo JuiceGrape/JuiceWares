@@ -90,14 +90,14 @@ public class ItemInfo {
 	public static final String[] ENCHANTMENT_ICONS = {ENCHANTMENT_ICON_1, ENCHANTMENT_ICON_2, ENCHANTMENT_ICON_2, ENCHANTMENT_ICON_2};
 	
 	
-	//Timewound Spring
+	//Timewound Clock
 	public static int TIMESPRING_ID;
 	public static final String TIMESPRING_KEY = "TimeSpring Item";
 	public static final int TIMESPRING_DEFAULT = 24207;
 	
 	public static final String TIMESPRING_UNLOCALIZED_NAME = "itemtimespring";
 	
-	public static final String TIMESPRING_NAME = "Timewound Spring";
+	public static final String TIMESPRING_NAME = "Timewound Clock";
 	
 	public static final String TIMESPRING_ICON = "timespring_item";
 		
