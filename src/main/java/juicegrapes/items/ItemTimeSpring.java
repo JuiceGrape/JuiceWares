@@ -71,7 +71,12 @@ public class ItemTimeSpring extends Item {
 			player.attackEntityFrom(DamageSource.generic, usage / 5);
 			world.setWorldTime(world.getWorldTime() + 125 * usage);
 			itemStack.stackSize--;
-			player.setCurrentItemOrArmor(0, itemStack);
+			if (itemStack.stackSize <= 0) {
+				player.setCurrentItemOrArmor(0, null);
+			} else {
+				player.setCurrentItemOrArmor(0, itemStack);
+			}
+				
 		} 
 
 

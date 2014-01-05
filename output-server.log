@@ -9094,3 +9094,106 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: 4
 2014-01-05 14:51:25 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Overworld
 2014-01-05 14:51:25 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Nether
 2014-01-05 14:51:25 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/The End
+2014-01-05 19:59:22 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-01-05 19:59:22 [SERVER] [INFO] Generating keypair
+2014-01-05 19:59:23 [SERVER] [INFO] Preparing start region for level 0
+2014-01-05 19:59:24 [SERVER] [INFO] Preparing spawn area: 36%
+2014-01-05 19:59:25 [SERVER] [INFO] Preparing spawn area: 80%
+2014-01-05 19:59:25 [SERVER] [INFO] Player142[/127.0.0.1:0] logged in with entity id 423 at (118.5, 68.0, 213.5)
+2014-01-05 19:59:25 [SERVER] [INFO] Player142 joined the game
+2014-01-05 19:59:36 [SERVER] [INFO] Saving and pausing game...
+2014-01-05 19:59:36 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Overworld
+2014-01-05 19:59:36 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Nether
+2014-01-05 19:59:36 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/The End
+2014-01-05 19:59:36 [SERVER] [INFO] Stopping server
+2014-01-05 19:59:36 [SERVER] [INFO] Saving players
+2014-01-05 19:59:36 [SERVER] [INFO] Player142 left the game
+2014-01-05 19:59:36 [SERVER] [INFO] Saving worlds
+2014-01-05 19:59:36 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Overworld
+2014-01-05 19:59:36 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Nether
+2014-01-05 19:59:36 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/The End
+2014-01-05 20:12:07 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-01-05 20:12:07 [SERVER] [INFO] Generating keypair
+2014-01-05 20:12:07 [SERVER] [INFO] Preparing start region for level 0
+2014-01-05 20:12:09 [SERVER] [INFO] Player600[/127.0.0.1:0] logged in with entity id 433 at (111.59014517748133, 69.0, 215.86674035843296)
+2014-01-05 20:12:09 [SERVER] [INFO] Player600 joined the game
+2014-01-05 20:12:21 [SERVER] [INFO] [Player600: Set own game mode to Survival Mode]
+2014-01-05 20:12:30 [SERVER] [INFO] Player600 was slain by Eyeball
+2014-01-05 20:12:36 [SERVER] [INFO] Saving and pausing game...
+2014-01-05 20:12:36 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Overworld
+2014-01-05 20:12:36 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Nether
+2014-01-05 20:12:36 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/The End
+2014-01-05 20:12:36 [SERVER] [INFO] Stopping server
+2014-01-05 20:12:36 [SERVER] [INFO] Saving players
+2014-01-05 20:12:36 [SERVER] [INFO] Player600 left the game
+2014-01-05 20:12:36 [SERVER] [INFO] Saving worlds
+2014-01-05 20:12:36 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Overworld
+2014-01-05 20:12:36 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Nether
+2014-01-05 20:12:36 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/The End
+2014-01-05 20:22:31 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-01-05 20:22:31 [SERVER] [INFO] Generating keypair
+2014-01-05 20:22:32 [SERVER] [INFO] Preparing start region for level 0
+2014-01-05 20:22:33 [SERVER] [INFO] Player358[/127.0.0.1:0] logged in with entity id 467 at (112.58295959249375, 68.1707870772188, 219.15205925516275)
+2014-01-05 20:22:33 [SERVER] [INFO] Player358 joined the game
+2014-01-05 20:22:49 [SERVER] [INFO] Player358 was slain by Eyeball
+2014-01-05 20:22:57 [SERVER] [INFO] [Player358: Set own game mode to Creative Mode]
+2014-01-05 20:23:05 [SERVER] [INFO] [Player358: Set own game mode to Survival Mode]
+2014-01-05 20:23:17 [SERVER] [INFO] Player358 was slain by Eyeball
+2014-01-05 20:23:35 [SERVER] [INFO] Saving and pausing game...
+2014-01-05 20:23:35 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Overworld
+2014-01-05 20:23:35 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Nether
+2014-01-05 20:23:35 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/The End
+2014-01-05 20:23:38 [SERVER] [INFO] Saving and pausing game...
+2014-01-05 20:23:38 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Overworld
+2014-01-05 20:23:38 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Nether
+2014-01-05 20:23:38 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/The End
+2014-01-05 20:23:38 [SERVER] [INFO] Stopping server
+2014-01-05 20:23:38 [SERVER] [INFO] Saving players
+2014-01-05 20:23:38 [SERVER] [INFO] Player358 left the game
+2014-01-05 20:23:38 [SERVER] [INFO] Saving worlds
+2014-01-05 20:23:38 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Overworld
+2014-01-05 20:23:38 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Nether
+2014-01-05 20:23:38 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/The End
+2014-01-05 20:34:52 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-01-05 20:34:52 [SERVER] [INFO] Generating keypair
+2014-01-05 20:34:53 [SERVER] [INFO] Preparing start region for level 0
+2014-01-05 20:34:54 [SERVER] [INFO] Player270[/127.0.0.1:0] logged in with entity id 497 at (118.5, 66.0, 222.5)
+2014-01-05 20:34:54 [SERVER] [INFO] Player270 joined the game
+2014-01-05 20:35:19 [SERVER] [INFO] Player270 was slain by Eyeball
+2014-01-05 20:35:29 [SERVER] [INFO] [Player270: Set own game mode to Creative Mode]
+2014-01-05 20:36:02 [SERVER] [INFO] Player270 fell out of the world
+2014-01-05 20:36:11 [SERVER] [INFO] Player270 fell out of the world
+2014-01-05 20:36:23 [SERVER] [INFO] Player270 fell out of the world
+2014-01-05 20:37:08 [SERVER] [INFO] [Player270: Set own game mode to Survival Mode]
+2014-01-05 20:37:22 [SERVER] [INFO] Player270 was slain by Eyeball
+2014-01-05 20:37:34 [SERVER] [INFO] Saving and pausing game...
+2014-01-05 20:37:34 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Overworld
+2014-01-05 20:37:34 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Nether
+2014-01-05 20:37:34 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/The End
+2014-01-05 20:37:34 [SERVER] [INFO] Stopping server
+2014-01-05 20:37:34 [SERVER] [INFO] Saving players
+2014-01-05 20:37:34 [SERVER] [INFO] Player270 left the game
+2014-01-05 20:37:34 [SERVER] [INFO] Saving worlds
+2014-01-05 20:37:34 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Overworld
+2014-01-05 20:37:34 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Nether
+2014-01-05 20:37:34 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/The End
+2014-01-05 20:37:58 [SERVER] [INFO] Starting integrated minecraft server version 1.6.4
+2014-01-05 20:37:58 [SERVER] [INFO] Generating keypair
+2014-01-05 20:37:59 [SERVER] [INFO] Preparing start region for level 0
+2014-01-05 20:38:00 [SERVER] [INFO] Preparing spawn area: 55%
+2014-01-05 20:38:01 [SERVER] [INFO] Player557[/127.0.0.1:0] logged in with entity id 506 at (91.77891256456206, 65.0, 211.05669203114368)
+2014-01-05 20:38:01 [SERVER] [INFO] Player557 joined the game
+2014-01-05 20:38:45 [SERVER] [INFO] Player557 was slain by Eyeball
+2014-01-05 20:39:32 [SERVER] [INFO] [Player557: Set own game mode to Creative Mode]
+2014-01-05 20:40:28 [SERVER] [INFO] [Player557: Set the time to 0]
+2014-01-05 20:41:50 [SERVER] [INFO] Saving and pausing game...
+2014-01-05 20:41:50 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Overworld
+2014-01-05 20:41:50 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Nether
+2014-01-05 20:41:50 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/The End
+2014-01-05 20:41:51 [SERVER] [INFO] Stopping server
+2014-01-05 20:41:51 [SERVER] [INFO] Saving players
+2014-01-05 20:41:51 [SERVER] [INFO] Player557 left the game
+2014-01-05 20:41:51 [SERVER] [INFO] Saving worlds
+2014-01-05 20:41:51 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Overworld
+2014-01-05 20:41:51 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/Nether
+2014-01-05 20:41:51 [SERVER] [INFO] Saving chunks for level 'New Worldwdsfgh'/The End

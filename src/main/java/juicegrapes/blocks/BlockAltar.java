@@ -2,8 +2,6 @@ package juicegrapes.blocks;
 
 import java.util.Random;
 
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 import juicegrapes.juicewares;
 import juicegrapes.items.ItemLens;
 import juicegrapes.items.Items;
@@ -17,6 +15,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 
 public class BlockAltar extends BlockContainer {
 
@@ -123,7 +123,8 @@ public class BlockAltar extends BlockContainer {
     					}
     				}
     			}
-    		}
+    		} 
+
     	}
     	
     	return true;

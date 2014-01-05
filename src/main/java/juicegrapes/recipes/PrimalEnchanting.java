@@ -47,15 +47,38 @@ public class PrimalEnchanting {
 					GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Block.pistonBase, Enchantment.knockback, 1));
 				}
 				
+				if (Enchantment.fireAspect.canApply(tool)) {
+					GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.blazeRod, Enchantment.fireAspect, 1));
+				}
+				
+				if (Enchantment.fireProtection.canApply(tool)) {
+					GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.blazePowder, Enchantment.fireProtection, 1));
+				}
+				
+				if (Enchantment.baneOfArthropods.canApply(tool)) {
+					GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.magmaCream, Enchantment.baneOfArthropods, 1));
+				}
+				
+				if (Enchantment.smite.canApply(tool)) {
+					GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.goldenCarrot, Enchantment.smite, 1));
+				}
+				
+				if (Enchantment.thorns.canApply(tool)) {
+					GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Block.cactus, Enchantment.thorns, 1));
+				}
+				
 				if (juicewares.compatMoreEnchants != null) {
-					if(MoreEnchantsWrapper.venom.canApply(tool)) {
+					if (MoreEnchantsWrapper.venom.canApply(tool)) {
 						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], new ItemStack(Item.potion, 1, 8260), MoreEnchantsWrapper.venom, 1));
 					}
-					if(MoreEnchantsWrapper.mending.canApply(tool)) {
+					if (MoreEnchantsWrapper.mending.canApply(tool)) {
 						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], new ItemStack(Item.potion, 1, 8229), MoreEnchantsWrapper.mending, 1));
+					}
+					if (MoreEnchantsWrapper.defusing.canApply(tool)) {
+						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.redstone, MoreEnchantsWrapper.defusing, 1));
 					}
 				}	
 			}
-		}
+		}	
 	}
 }

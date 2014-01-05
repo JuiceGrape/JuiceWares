@@ -5407,3 +5407,100 @@ java.io.FileNotFoundException: juicewares:textures/models/altar.png
 2014-01-05 14:51:11 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/timespring_item.png
 2014-01-05 14:51:12 [CLIENT] [SEVERE] Realms: Invalid session id
 2014-01-05 14:51:27 [CLIENT] [INFO] Stopping!
+2014-01-05 19:58:58 [CLIENT] [INFO] Setting user: Player142
+2014-01-05 19:59:02 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-01-05 19:59:06 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-01-05 19:59:11 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JuiceWares
+2014-01-05 19:59:12 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/debug_item.png
+2014-01-05 19:59:12 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/timespring_item.png
+2014-01-05 19:59:12 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JuiceWares
+2014-01-05 19:59:12 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/debug_item.png
+2014-01-05 19:59:12 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/timespring_item.png
+2014-01-05 19:59:18 [CLIENT] [SEVERE] Realms: Invalid session id
+2014-01-05 19:59:37 [CLIENT] [INFO] Stopping!
+2014-01-05 20:11:55 [CLIENT] [INFO] Setting user: Player600
+2014-01-05 20:11:56 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-01-05 20:11:57 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-01-05 20:12:03 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JuiceWares
+2014-01-05 20:12:04 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/debug_item.png
+2014-01-05 20:12:04 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/timespring_item.png
+2014-01-05 20:12:04 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JuiceWares
+2014-01-05 20:12:04 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/debug_item.png
+2014-01-05 20:12:04 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/timespring_item.png
+2014-01-05 20:12:06 [CLIENT] [SEVERE] Realms: Invalid session id
+2014-01-05 20:12:18 [CLIENT] [INFO] [CHAT] /gamemode, /give, /gamerule
+2014-01-05 20:12:19 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:12:19 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:12:20 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:12:20 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:12:21 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-01-05 20:12:30 [CLIENT] [INFO] [CHAT] Player600 was slain by Eyeball
+2014-01-05 20:12:38 [CLIENT] [INFO] Stopping!
+2014-01-05 20:22:19 [CLIENT] [INFO] Setting user: Player358
+2014-01-05 20:22:20 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-01-05 20:22:21 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-01-05 20:22:24 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JuiceWares
+2014-01-05 20:22:26 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/debug_item.png
+2014-01-05 20:22:26 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/timespring_item.png
+2014-01-05 20:22:26 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JuiceWares
+2014-01-05 20:22:26 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/debug_item.png
+2014-01-05 20:22:26 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/timespring_item.png
+2014-01-05 20:22:27 [CLIENT] [SEVERE] Realms: Invalid session id
+2014-01-05 20:22:49 [CLIENT] [INFO] [CHAT] Player358 was slain by Eyeball
+2014-01-05 20:22:55 [CLIENT] [INFO] [CHAT] /gamemode, /give, /gamerule
+2014-01-05 20:22:56 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:22:56 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:22:57 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-01-05 20:23:04 [CLIENT] [INFO] [CHAT] /gamemode, /give, /gamerule
+2014-01-05 20:23:05 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:23:06 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-01-05 20:23:17 [CLIENT] [INFO] [CHAT] Player358 was slain by Eyeball
+2014-01-05 20:23:58 [CLIENT] [INFO] [CHAT] Player358 was slain by Eyeball
+2014-01-05 20:24:02 [CLIENT] [INFO] Stopping!
+2014-01-05 20:34:43 [CLIENT] [INFO] Setting user: Player270
+2014-01-05 20:34:44 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-01-05 20:34:44 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-01-05 20:34:47 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JuiceWares
+2014-01-05 20:34:48 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/debug_item.png
+2014-01-05 20:34:48 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/timespring_item.png
+2014-01-05 20:34:49 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JuiceWares
+2014-01-05 20:34:49 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/debug_item.png
+2014-01-05 20:34:49 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/timespring_item.png
+2014-01-05 20:34:50 [CLIENT] [SEVERE] Realms: Invalid session id
+2014-01-05 20:35:20 [CLIENT] [INFO] [CHAT] Player270 was slain by Eyeball
+2014-01-05 20:35:27 [CLIENT] [INFO] [CHAT] /gamemode, /give, /gamerule
+2014-01-05 20:35:28 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:35:28 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:35:29 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-01-05 20:35:54 [CLIENT] [INFO] [CHAT] /gamemode, /give, /scoreboard, /tp, /kill, /spreadplayers, /xp, /difficulty, /debug, /gamerule, /clear, /time, /help, /defaultgamemode, /weather, /me, /tell, /publish, /seed, /playsound, /forge, /msg, /spawnpoint, /w, /toggledownfall, /effect, /say, /testfor, /?, /enchant
+2014-01-05 20:36:02 [CLIENT] [INFO] [CHAT] Player270 fell out of the world
+2014-01-05 20:36:02 [CLIENT] [INFO] [CHAT] Ouch! That looked like it hurt
+2014-01-05 20:36:11 [CLIENT] [INFO] [CHAT] Player270 fell out of the world
+2014-01-05 20:36:11 [CLIENT] [INFO] [CHAT] Ouch! That looked like it hurt
+2014-01-05 20:36:23 [CLIENT] [INFO] [CHAT] Player270 fell out of the world
+2014-01-05 20:36:23 [CLIENT] [INFO] [CHAT] Ouch! That looked like it hurt
+2014-01-05 20:37:06 [CLIENT] [INFO] [CHAT] /gamemode, /give, /gamerule
+2014-01-05 20:37:06 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:37:07 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:37:07 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:37:07 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:37:08 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-01-05 20:37:22 [CLIENT] [INFO] [CHAT] Player270 was slain by Eyeball
+2014-01-05 20:37:36 [CLIENT] [INFO] Stopping!
+2014-01-05 20:37:46 [CLIENT] [INFO] Setting user: Player557
+2014-01-05 20:37:47 [CLIENT] [INFO] LWJGL Version: 2.9.0
+2014-01-05 20:37:48 [CLIENT] [INFO] Reloading ResourceManager: Default
+2014-01-05 20:37:53 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JuiceWares
+2014-01-05 20:37:55 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/debug_item.png
+2014-01-05 20:37:55 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/timespring_item.png
+2014-01-05 20:37:55 [CLIENT] [INFO] Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JuiceWares
+2014-01-05 20:37:55 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/debug_item.png
+2014-01-05 20:37:55 [CLIENT] [SEVERE] Using missing texture, unable to load: juicewares:textures/items/timespring_item.png
+2014-01-05 20:37:57 [CLIENT] [SEVERE] Realms: Invalid session id
+2014-01-05 20:38:45 [CLIENT] [INFO] [CHAT] Player557 was slain by Eyeball
+2014-01-05 20:39:31 [CLIENT] [INFO] [CHAT] /gamemode, /give, /gamerule
+2014-01-05 20:39:32 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:39:32 [CLIENT] [INFO] [CHAT] survival, creative, adventure
+2014-01-05 20:39:32 [CLIENT] [INFO] [CHAT] Your game mode has been updated
+2014-01-05 20:40:28 [CLIENT] [INFO] [CHAT] Set the time to 0
+2014-01-05 20:41:53 [CLIENT] [INFO] Stopping!

@@ -21,3 +21,4 @@ build.gradle
 /*.1
 /*.2
 .project
+/*.log
