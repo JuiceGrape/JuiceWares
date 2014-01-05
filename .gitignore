@@ -12,6 +12,8 @@ build/
 bin/
 .settings/
 .gradle/
+output-client.log
+output-server.log
 
 build.gradle
 
