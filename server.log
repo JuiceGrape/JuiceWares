@@ -1,0 +1,135 @@
+2013-11-21 14:10:41 [INFO] Starting minecraft server version 1.6.4
+2013-11-21 14:10:44 [INFO] Loading properties
+2013-11-21 14:10:44 [WARNING] server.properties does not exist
+2013-11-21 14:10:44 [INFO] Generating new properties file
+2013-11-21 14:10:44 [INFO] Default game type: SURVIVAL
+2013-11-21 14:10:44 [INFO] Generating keypair
+2013-11-21 14:10:44 [INFO] Starting Minecraft server on *:25565
+2013-11-21 14:10:44 [WARNING] Failed to load operators list: java.io.FileNotFoundException: .\ops.txt (The system cannot find the file specified)
+2013-11-21 14:10:44 [WARNING] Failed to load white-list: java.io.FileNotFoundException: .\white-list.txt (The system cannot find the file specified)
+2013-11-21 14:10:44 [INFO] Preparing level "world"
+2013-11-21 14:10:45 [INFO] Preparing start region for level 0
+2013-11-21 14:10:46 [INFO] Preparing spawn area: 11%
+2013-11-21 14:10:47 [INFO] Preparing spawn area: 27%
+2013-11-21 14:10:48 [INFO] Preparing spawn area: 37%
+2013-11-21 14:10:49 [INFO] Preparing spawn area: 50%
+2013-11-21 14:10:50 [INFO] Preparing spawn area: 64%
+2013-11-21 14:10:51 [INFO] Preparing spawn area: 77%
+2013-11-21 14:10:52 [INFO] Preparing spawn area: 91%
+2013-11-21 14:10:52 [INFO] Done (8,117s)! For help, type "help" or "?"
+2013-11-21 14:10:53 [INFO] Stopping the server
+2013-11-21 14:10:53 [INFO] Stopping the server
+2013-11-21 14:10:53 [INFO] Stopping the server
+2013-11-21 14:10:53 [INFO] Stopping the server
+2013-11-21 14:10:53 [INFO] Stopping server
+2013-11-21 14:10:53 [INFO] Saving players
+2013-11-21 14:10:53 [INFO] Saving worlds
+2013-11-21 14:10:53 [INFO] Saving chunks for level 'world'/Overworld
+2013-11-21 14:10:53 [INFO] Closing listening thread
+2013-11-21 14:11:00 [INFO] Saving chunks for level 'world'/Nether
+2013-11-21 14:11:00 [INFO] Saving chunks for level 'world'/The End
+2013-11-21 14:11:06 [INFO] Stopping server
+2013-11-21 14:11:23 [INFO] Starting minecraft server version 1.6.4
+2013-11-21 14:11:26 [INFO] Loading properties
+2013-11-21 14:11:26 [INFO] Default game type: SURVIVAL
+2013-11-21 14:11:26 [INFO] Generating keypair
+2013-11-21 14:11:26 [INFO] Starting Minecraft server on *:25565
+2013-11-21 14:11:26 [INFO] Preparing level "world"
+2013-11-21 14:11:27 [INFO] Preparing start region for level 0
+2013-11-21 14:11:28 [INFO] Preparing spawn area: 46%
+2013-11-21 14:11:29 [INFO] Done (2,075s)! For help, type "help" or "?"
+2013-11-21 14:12:04 [INFO] Stopping server
+2013-11-21 14:12:04 [INFO] Saving players
+2013-11-21 14:12:04 [INFO] Saving worlds
+2013-11-21 14:12:04 [INFO] Saving chunks for level 'world'/Overworld
+2013-11-21 14:12:04 [INFO] Closing listening thread
+2013-11-21 14:12:04 [INFO] Saving chunks for level 'world'/Nether
+2013-11-21 14:12:04 [INFO] Saving chunks for level 'world'/The End
+2013-11-21 14:12:04 [INFO] Stopping server
+2013-11-21 14:12:10 [INFO] Starting minecraft server version 1.6.4
+2013-11-21 14:12:16 [INFO] Loading properties
+2013-11-21 14:12:16 [INFO] Default game type: SURVIVAL
+2013-11-21 14:12:16 [INFO] Generating keypair
+2013-11-21 14:12:16 [INFO] Starting Minecraft server on *:25565
+2013-11-21 14:12:16 [INFO] Preparing level "world"
+2013-11-21 14:12:17 [INFO] Preparing start region for level 0
+2013-11-21 14:12:18 [INFO] Preparing spawn area: 58%
+2013-11-21 14:12:18 [INFO] Done (1,950s)! For help, type "help" or "?"
+2013-11-21 14:12:26 [INFO] Stopping the server
+2013-11-21 14:12:26 [INFO] Stopping server
+2013-11-21 14:12:26 [INFO] Saving players
+2013-11-21 14:12:26 [INFO] Saving worlds
+2013-11-21 14:12:26 [INFO] Saving chunks for level 'world'/Overworld
+2013-11-21 14:12:26 [INFO] Closing listening thread
+2013-11-21 14:12:26 [INFO] Saving chunks for level 'world'/Nether
+2013-11-21 14:12:26 [INFO] Saving chunks for level 'world'/The End
+2013-11-21 14:12:27 [INFO] Stopping server
+2013-12-28 12:08:21 [INFO] Starting minecraft server version 1.6.4
+2013-12-28 12:08:27 [INFO] Loading properties
+2013-12-28 12:08:27 [INFO] Default game type: SURVIVAL
+2013-12-28 12:08:27 [INFO] Generating keypair
+2013-12-28 12:08:28 [INFO] Starting Minecraft server on *:25565
+2013-12-28 12:08:28 [INFO] Preparing level "world"
+2013-12-28 12:08:29 [INFO] Preparing start region for level 0
+2013-12-28 12:08:30 [INFO] Preparing spawn area: 14%
+2013-12-28 12:08:31 [INFO] Preparing spawn area: 44%
+2013-12-28 12:08:32 [INFO] Preparing spawn area: 79%
+2013-12-28 12:08:33 [INFO] Done (4,441s)! For help, type "help" or "?"
+2013-12-28 12:08:34 [SEVERE] Reached end of stream for /127.0.0.1
+2013-12-28 12:08:36 [WARNING] Can't keep up! Did the system time change, or is the server overloaded?
+2013-12-28 12:08:40 [INFO] Player424 [/127.0.0.1:64954] lost connection
+2013-12-28 12:09:19 [SEVERE] Reached end of stream for /127.0.0.1
+2013-12-28 12:09:22 [INFO] Player548 [/127.0.0.1:64970] lost connection
+2013-12-28 12:09:47 [INFO] Stopping server
+2013-12-28 12:09:47 [INFO] Saving players
+2013-12-28 12:09:47 [INFO] Saving worlds
+2013-12-28 12:09:47 [INFO] Saving chunks for level 'world'/Overworld
+2013-12-28 12:09:47 [INFO] Closing listening thread
+2013-12-28 12:09:47 [INFO] Saving chunks for level 'world'/Nether
+2013-12-28 12:09:47 [INFO] Saving chunks for level 'world'/The End
+2013-12-28 12:09:47 [INFO] Stopping server
+2013-12-28 12:10:25 [INFO] Starting minecraft server version 1.6.4
+2013-12-28 12:10:28 [INFO] Loading properties
+2013-12-28 12:10:28 [INFO] Default game type: SURVIVAL
+2013-12-28 12:10:28 [INFO] Generating keypair
+2013-12-28 12:10:30 [INFO] Starting Minecraft server on *:25565
+2013-12-28 12:10:31 [INFO] Preparing level "world"
+2013-12-28 12:10:33 [INFO] Preparing start region for level 0
+2013-12-28 12:10:34 [INFO] Preparing spawn area: 5%
+2013-12-28 12:10:35 [INFO] Preparing spawn area: 12%
+2013-12-28 12:10:36 [INFO] Preparing spawn area: 22%
+2013-12-28 12:10:37 [INFO] Preparing spawn area: 28%
+2013-12-28 12:10:38 [INFO] Preparing spawn area: 30%
+2013-12-28 12:10:39 [INFO] Preparing spawn area: 31%
+2013-12-28 12:10:40 [INFO] Preparing spawn area: 32%
+2013-12-28 12:10:42 [INFO] Preparing spawn area: 42%
+2013-12-28 12:10:43 [INFO] Preparing spawn area: 49%
+2013-12-28 12:10:44 [INFO] Preparing spawn area: 55%
+2013-12-28 12:10:45 [INFO] Preparing spawn area: 61%
+2013-12-28 12:10:46 [INFO] Preparing spawn area: 64%
+2013-12-28 12:10:48 [INFO] Preparing spawn area: 66%
+2013-12-28 12:10:49 [INFO] Preparing spawn area: 71%
+2013-12-28 12:10:50 [INFO] Preparing spawn area: 77%
+2013-12-28 12:10:50 [SEVERE] Reached end of stream for /127.0.0.1
+2013-12-28 12:10:51 [INFO] Preparing spawn area: 82%
+2013-12-28 12:10:52 [INFO] Preparing spawn area: 86%
+2013-12-28 12:10:53 [INFO] Preparing spawn area: 89%
+2013-12-28 12:10:55 [INFO] Preparing spawn area: 95%
+2013-12-28 12:10:56 [SEVERE] Reached end of stream for /127.0.0.1
+2013-12-28 12:10:56 [INFO] Preparing spawn area: 99%
+2013-12-28 12:10:56 [INFO] Done (25,969s)! For help, type "help" or "?"
+2013-12-28 12:10:57 [INFO] /127.0.0.1:64992 lost connection
+2013-12-28 12:10:57 [INFO] /127.0.0.1:64995 lost connection
+2013-12-28 12:10:59 [SEVERE] Reached end of stream for /127.0.0.1
+2013-12-28 12:11:03 [INFO] Player154 [/127.0.0.1:65001] lost connection
+2013-12-28 12:11:42 [SEVERE] Reached end of stream for /127.0.0.1
+2013-12-28 12:11:45 [INFO] Player650 [/127.0.0.1:65018] lost connection
+2013-12-28 12:16:38 [INFO] Stopping the server
+2013-12-28 12:16:38 [INFO] Stopping server
+2013-12-28 12:16:38 [INFO] Saving players
+2013-12-28 12:16:38 [INFO] Saving worlds
+2013-12-28 12:16:38 [INFO] Saving chunks for level 'world'/Overworld
+2013-12-28 12:16:38 [INFO] Closing listening thread
+2013-12-28 12:16:38 [INFO] Saving chunks for level 'world'/Nether
+2013-12-28 12:16:38 [INFO] Saving chunks for level 'world'/The End
+2013-12-28 12:16:39 [INFO] Stopping server

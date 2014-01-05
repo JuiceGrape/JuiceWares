@@ -1,0 +1,19 @@
+[
+{
+    "modid" : "juicewares",
+    "name" : "JuiceWares",
+    "version" : "beta 1.1.1a",
+    "credits" : "Kras, JuiceGrape, Ironhammer354",
+    "authors" : [
+        "JuiceGrape"
+     ],
+     "description" : "A random collection of fun little changes, blocks and items to help me learn modding.",
+     "url" : "http://juicewares.wikia.com/wiki/JuiceWares_Wiki",
+     "updateUrl" : "",
+     "logoFile" : "i.imgur.com/EsOjIWS.png",
+     "parent" : "",
+     "screenshots" : [
+	"http://i.imgur.com/EsOjIWS.png"
+     ]
+}
+]
