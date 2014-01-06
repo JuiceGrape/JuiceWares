@@ -19,8 +19,8 @@ public class BlockInfo {
 	
 	public static final int STRINGREED_SPAWN_DEF = 1;
 	public static final int STRINGREED_GROWTH_DEF = 10;
-	public static final String STRINGREED_SPAWN_KEY = "Spawn rate String Reed";
-	public static final String STRINGREED_GROWTH_KEY = "Growth speed String Reed";
+	public static final String STRINGREED_SPAWN_KEY = "Spawn rate hemp";
+	public static final String STRINGREED_GROWTH_KEY = "Growth speed hemp, cannot be higher than 15, lower is faster";
 	public static int STRINGREED_SPAWN;
 	public static int STRINGREED_GROWTH;
 	

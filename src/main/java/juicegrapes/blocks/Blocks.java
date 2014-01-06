@@ -13,7 +13,7 @@ public class Blocks {
 	
 	public static void init() {
 		
-		stringreed = new BlockStringReed(BlockInfo.STRINGREED_ID);
+		stringreed = new BlockHemp(BlockInfo.STRINGREED_ID);
 		GameRegistry.registerBlock(stringreed, BlockInfo.STRINGREED_KEY);
 		
 		drawer = new BlockDrawer(BlockInfo.DRAWER_ID);

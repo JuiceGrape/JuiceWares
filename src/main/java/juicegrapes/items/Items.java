@@ -24,7 +24,7 @@ public class Items {
 	public static Item itemTimeSpring;
 	
 	public static void init() {
-		stringreed = new juicegrapes.items.ItemReed(ItemInfo.STRINGREED_ID);
+		stringreed = new juicegrapes.items.ItemHemp(ItemInfo.STRINGREED_ID);
 		GameRegistry.registerItem(stringreed, ItemInfo.STRINGREED_KEY);
 		
 		divinghelmet = new juicegrapes.items.DivingHelmet(ItemInfo.DIVINGHELMET_ID, EnumArmorMaterial.GOLD, juicewares.proxy.addArmor("Diving"), 0);

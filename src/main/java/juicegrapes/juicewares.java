@@ -49,8 +49,8 @@ public class juicewares {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		ConfigHandler.init(event.getSuggestedConfigurationFile());
-		Items.init();
 		Blocks.init();
+		Items.init();
 		Entity.init();
 		proxy.initSounds();
 		proxy.initRenderers();
