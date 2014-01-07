@@ -67,10 +67,11 @@ public class juicewares {
 	public void init(FMLInitializationEvent event) {
 		Items.addNames();
 		Blocks.addNames();
-		if(Loader.isModLoaded("MoreEnchants"))
+		if(Loader.isModLoaded("MoreEnchants")) {
 			compatMoreEnchants = new MoreEnchantsWrapper();
-		else
+		} else {
 			compatMoreEnchants = null;
+		}
 		Potions.init();
 		proxy.addStringLocalization();
 		Items.miscInit();
