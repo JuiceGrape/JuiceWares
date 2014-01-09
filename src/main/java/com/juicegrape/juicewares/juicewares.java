@@ -31,14 +31,14 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
-@Mod(modid = ModInformation.ID, name = ModInformation.NAME, version = ModInformation.VERSION, dependencies = "after:MoreEnchants;after:Thaumcraft")
+@Mod(modid = ModInformation.ID, name = ModInformation.NAME, version = ModInformation.VERSION, dependencies = "after:MoreEnchants;after:Thaumcraft;after:Forestry")
 @NetworkMod(channels = { ModInformation.CHANNEL }, clientSideRequired = true, serverSideRequired = false, packetHandler = PacketHandler.class)
 public class juicewares {
 
 	@Instance(ModInformation.ID)
 	public static juicewares instance;
 
-	@SidedProxy(clientSide = "juicegrapes.proxies.ClientProxy", serverSide = "juicegrapes.proxies.CommonProxy")
+	@SidedProxy(clientSide = "com.juicegrape.juicewares.proxies.ClientProxy", serverSide = "com.juicegrape.juicewares.proxies.CommonProxy")
 	public static CommonProxy proxy;
 	
 	public static CreativeTabs juiceTab = new CreativeTabs("juicewares_JuiceTab") {
@@ -61,7 +61,6 @@ public class juicewares {
 		proxy.registerTileEntities();
 		Items.dungeonLoot();
 		MinecraftForge.EVENT_BUS.register(new EventHooks());
-		Items.addOreDictionary();
 		PotionPreInit.preInit();
 		System.out.println("JuiceWares succesfully pre initialized (probably)"); 
 	}
@@ -78,6 +77,7 @@ public class juicewares {
 		Potions.init();
 		proxy.addStringLocalization();
 		Items.miscInit();
+		Items.addOreDictionary();
 		CustomRecipes.regCustomModRecipes();
 		VanillaItemRecipes.regCustomVanillaRecipes();
 		new GenerationHandler();
@@ -89,6 +89,7 @@ public class juicewares {
 		if (Loader.isModLoaded("Thaumcraft")) {
 			ThaumcraftHandler.init();
 		}
+		
 		System.out.println("JuiceWares succesfully initialized (probably)"); 
 	}
 

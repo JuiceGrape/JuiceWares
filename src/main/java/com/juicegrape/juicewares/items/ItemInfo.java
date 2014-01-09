@@ -100,6 +100,21 @@ public class ItemInfo {
 	public static final String TIMESPRING_NAME = "Timewound Clock";
 	
 	public static final String TIMESPRING_ICON = "timespring_item";
+	
+	//Timewound Clock
+	public static int BLAZEFLOWERSEEDS_ID;
+	public static final String BLAZEFLOWERSEEDS_KEY = "BlazeFlowerSeeds";
+	public static final int BLAZEFLOWERSEEDS_DEFAULT = 24208;
+	
+	public static final String BLAZEFLOWERSEEDS_UNLOCALIZED_NAME = "blazeflowerseeds";
+	
+	public static final String BLAZEFLOWERSEEDS_NAME = "BlazeFlower seeds";
+	
+	public static final String BLAZEFLOWERSEEDS_ICON = "blazeflowerseeds_item";
+	
+	
+	
+	
 		
 
 

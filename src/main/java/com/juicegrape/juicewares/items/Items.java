@@ -24,6 +24,7 @@ public class Items {
 	public static Item lens;
 	public static Item enchantmentItem;
 	public static Item itemTimeSpring;
+	public static Item blazeflowerseeds;
 	
 	public static void init() {
 		stringreed = new ItemHemp(ItemInfo.STRINGREED_ID);
@@ -46,6 +47,9 @@ public class Items {
 		
 		itemTimeSpring = new ItemTimeSpring(ItemInfo.TIMESPRING_ID);
 		GameRegistry.registerItem(itemTimeSpring, ItemInfo.TIMESPRING_KEY);
+		
+		blazeflowerseeds = new ItemBlazeFlowerSeeds(ItemInfo.BLAZEFLOWERSEEDS_ID);
+		GameRegistry.registerItem(blazeflowerseeds, ItemInfo.BLAZEFLOWERSEEDS_KEY);
 
 	}
 	

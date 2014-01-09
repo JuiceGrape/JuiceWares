@@ -10,6 +10,7 @@ public class Blocks {
 	public static Block drawer;
 	public static Block meatyore;
 	public static Block altar;
+	public static Block blazeflower;
 	
 	public static void init() {
 		
@@ -24,6 +25,9 @@ public class Blocks {
 		
 		altar = new BlockAltar(BlockInfo.ALTAR_ID);
 		GameRegistry.registerBlock(altar, BlockInfo.ALTAR_KEY);
+		
+		blazeflower = new BlockBlazeFlower(BlockInfo.BLAZEFLOWER_ID);
+		GameRegistry.registerBlock(blazeflower, BlockInfo.BLAZEFLOWER_KEY);
 		
 		
 

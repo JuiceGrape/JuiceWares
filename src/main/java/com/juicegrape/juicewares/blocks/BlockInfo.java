@@ -55,6 +55,16 @@ public class BlockInfo {
 	public static final String ALTAR_UNLOCALIZED_NAME = "blockjuicealtar";
 	public static final String ALTAR_NAME = "Altar";
 	
+	//Blaze Flower
+	public static int BLAZEFLOWER_ID;
+	public static final String BLAZEFLOWER_KEY = "Blaze Flower";
+	public static final int BLAZEFLOWER_DEFAULT = 2079;
+	
+	public static final String BLAZEFLOWER_UNLOCALIZED_NAME = "blockblazeflower";
+	public static final String BLAZEFLOWER_NAME = "Blaze Flower";
+	
+	public static final String BLAZEFLOWER = "blazeflower_block";
+	
 	
 	
 }

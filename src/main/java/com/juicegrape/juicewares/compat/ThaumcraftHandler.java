@@ -17,6 +17,7 @@ public class ThaumcraftHandler {
 	public static void init() {
 		//Harvestables
 		FMLInterModComms.sendMessage("Thaumcraft", "harvestStandardCrop", new ItemStack(Blocks.stringreed, 1, 0));
+		FMLInterModComms.sendMessage("Thaumcraft", "harvestStandardCrop", new ItemStack(Blocks.blazeflower, 1, 15));
 	}
 	
 	public static void Postinit() {
