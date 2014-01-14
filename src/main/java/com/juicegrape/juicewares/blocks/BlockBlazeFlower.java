@@ -65,7 +65,6 @@ public class BlockBlazeFlower extends BlockNetherStalk {
 		 if (random.nextInt(10) == 0) {
 		    	spawnParticles("flame", world, x, y, z, random);
 		 }
-
 	    }
 	
 	@Override

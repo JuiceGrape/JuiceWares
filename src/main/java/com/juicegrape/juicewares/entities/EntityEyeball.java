@@ -32,7 +32,6 @@ public class EntityEyeball extends EntityMob {
 
 	public EntityEyeball(World world) {
 		super(world);
-		this.experienceValue = 0;
 		this.getNavigator().setAvoidsWater(true);
 		this.getNavigator().setCanSwim(true);
 		this.tasks.addTask(0, new EntityAISwimming(this));
@@ -74,8 +73,8 @@ public class EntityEyeball extends EntityMob {
 	@Override
 	protected void dropFewItems(boolean playerHit, int fortune) {
 		for(int i = 0; i <= fortune; i++) {
-			int chance = random.nextInt(100);
-			if (chance > 90) {
+			int chance = random.nextInt(10);
+			if (chance == 0) {
 				if (this.isPotionActive(Potion.nightVision)) {
 					this.entityDropItem(new ItemStack(Items.lens, 1, 1), 0F);
 				} else {

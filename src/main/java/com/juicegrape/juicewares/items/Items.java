@@ -61,6 +61,7 @@ public class Items {
 		LanguageRegistry.addName(nightvisiongoggles, ItemInfo.GOGGLES_NAME);
 		LanguageRegistry.addName(debugitem, ItemInfo.DEBUG_NAME);
 		LanguageRegistry.addName(itemTimeSpring, ItemInfo.TIMESPRING_NAME);
+		LanguageRegistry.addName(blazeflowerseeds, ItemInfo.BLAZEFLOWERSEEDS_NAME);
 		
 		for (int i = 0; i < ItemInfo.LENS_NAMES.length; i++) {
 			LanguageRegistry.addName(new ItemStack(lens, 1, i), ItemInfo.LENS_NAMES[i]);

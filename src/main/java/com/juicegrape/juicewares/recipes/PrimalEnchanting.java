@@ -41,10 +41,6 @@ public class PrimalEnchanting {
 					GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], new ItemStack(Items.enchantmentItem, 1, 3), Enchantment.looting, 2));
 				}
 				
-				if (Enchantment.unbreaking.canApply(tool)) {
-					GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Block.obsidian, Enchantment.unbreaking, 1));
-				}
-				
 				if (Enchantment.knockback.canApply(tool)) {
 					GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Block.pistonBase, Enchantment.knockback, 1));
 				}

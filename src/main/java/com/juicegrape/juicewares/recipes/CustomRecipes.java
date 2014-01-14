@@ -1,6 +1,7 @@
 package com.juicegrape.juicewares.recipes;
 
 import net.minecraft.block.Block;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
@@ -144,6 +145,10 @@ public class CustomRecipes {
 				}));
 			}
 		}
+		
+		ItemStack boob = new ItemStack(Item.swordDiamond);
+		boob.addEnchantment(Enchantment.looting, 3);
+		GameRegistry.addShapelessRecipe(boob, new Object[] { new ItemStack(Item.swordDiamond, 1,  OreDictionary.WILDCARD_VALUE) });
 		
 		
 		

@@ -1,5 +1,8 @@
 package com.juicegrape.juicewares.recipes;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.inventory.InventoryCrafting;
@@ -13,9 +16,27 @@ public class PrimalEnchantRecipe implements IRecipe {
 	private ItemStack output;
 	private Item tool;
 	private ItemStack toolUsed;
+	private ItemStack toolUsed2;
 	private ItemStack enchanter;
 	private Enchantment enchantment;
 	private int enchantmentLevel;
+	public ItemStack output2;
+	public List<ItemStack> items;
+	
+	private static ItemStack recipeOutputSetter(ItemStack tool, Enchantment enchantment, int level) {
+		int damage = tool.getItemDamage() + ((tool.getMaxDamage() - tool.getItemDamage()) / 10);
+		ItemStack out = tool.copy();
+		out.setItemDamage(damage);
+		out.addEnchantment(enchantment, level);
+		return out;
+	}
+	
+	private static List<ItemStack> getUsedItems(ItemStack tool, ItemStack enchanter) {
+		List<ItemStack> items = new ArrayList<ItemStack>();
+		items.add(tool);
+		items.add(enchanter);
+		return items;
+	}
 	
 	public PrimalEnchantRecipe(Item tool, Item enchanter, Enchantment enchantment, int enchantmentLevel) {
 		this(tool, new ItemStack(enchanter), enchantment, enchantmentLevel);
@@ -25,13 +46,17 @@ public class PrimalEnchantRecipe implements IRecipe {
 		this(tool, new ItemStack(enchanter), enchantment, enchantmentLevel);
 	}
 	
+	
 	public PrimalEnchantRecipe(Item tool, ItemStack enchanter, Enchantment enchantment, int enchantmentLevel) {
 		this.tool = tool;
 		output = null;
 		toolUsed = null;
+		toolUsed2 = new ItemStack(tool);
 		this.enchanter = enchanter;
 		this.enchantment = enchantment;
 		this.enchantmentLevel = enchantmentLevel;
+		output2 = recipeOutputSetter(toolUsed2, enchantment, enchantmentLevel);
+		items = getUsedItems(toolUsed2, enchanter);
 	}
 	
 	
@@ -82,10 +107,10 @@ public class PrimalEnchantRecipe implements IRecipe {
 	}
 	
 	public int getRecipeSize() {
-		return 10;
+		return 2;
 	}
 	
 	public ItemStack getRecipeOutput() {
-		return output;
+		return output != null ? output : output2;
 	}
 }

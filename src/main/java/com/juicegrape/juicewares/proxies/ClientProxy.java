@@ -16,7 +16,9 @@ import com.juicegrape.juicewares.client.render.ItemTileEntityRenderer;
 import com.juicegrape.juicewares.client.render.RenderEyeball;
 import com.juicegrape.juicewares.client.sound.SoundHandler;
 import com.juicegrape.juicewares.config.Enabling;
+import com.juicegrape.juicewares.entities.Entity;
 import com.juicegrape.juicewares.entities.EntityEyeball;
+import com.juicegrape.juicewares.misc.CustomDamageSource;
 import com.juicegrape.juicewares.tileentities.TileEntityAltar;
 import com.juicegrape.juicewares.tileentities.TileEntityDrawer;
 
@@ -101,6 +103,8 @@ public class ClientProxy extends CommonProxy {
 	public void addStringLocalization() {
 		LanguageRegistry.instance().addStringLocalization("itemGroup.juicewares_JuiceTab", "JuiceWares");
 		LanguageRegistry.instance().addStringLocalization("potion.cWaterBreathing", "Oxygen Left");
+		Entity.initNames();
+		CustomDamageSource.initDeathMessages();
 		if (Enabling.mysteryOption) {
 			LanguageRegistry.instance().addStringLocalization(Enchantment.baneOfArthropods.getName(), "Bane of Awfulturds" );
 			LanguageRegistry.instance().addStringLocalization(Block.blockGold.getUnlocalizedName() + ".name", "Butter");

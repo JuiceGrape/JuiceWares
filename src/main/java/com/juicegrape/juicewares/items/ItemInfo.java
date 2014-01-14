@@ -108,7 +108,7 @@ public class ItemInfo {
 	
 	public static final String BLAZEFLOWERSEEDS_UNLOCALIZED_NAME = "blazeflowerseeds";
 	
-	public static final String BLAZEFLOWERSEEDS_NAME = "BlazeFlower seeds";
+	public static final String BLAZEFLOWERSEEDS_NAME = "Smoldering Seeds";
 	
 	public static final String BLAZEFLOWERSEEDS_ICON = "blazeflowerseeds_item";
 	

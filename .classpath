@@ -128,5 +128,8 @@
 			<attribute name="javadoc_location" value="jar:file:/C:/Users/Bas/.gradle/caches/artifacts-26/filestore/net.minecraftforge/forge/1.6.4-9.11.1.964/zip/23b2a714525af51ba6c596144c1a7492c8548d1c/forge-1.6.4-9.11.1.964-javadoc.zip!/"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Bas/Documents/aww yeah mods n shit/JuiceWares/mods/NotEnoughItems-dev 1.6.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bas/Documents/aww yeah mods n shit/Thaumcraft API/Thaumcraft4.0.5b.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Bas/Documents/aww yeah mods n shit/JuiceWares/mods/MineFactoryReloaded-2.7.4-255.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

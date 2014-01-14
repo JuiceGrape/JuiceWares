@@ -8,11 +8,11 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumAction;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.DamageSource;
 import net.minecraft.world.World;
 
 import com.juicegrape.juicewares.juicewares;
 import com.juicegrape.juicewares.config.Enabling;
+import com.juicegrape.juicewares.misc.CustomDamageSource;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -29,20 +29,6 @@ public class ItemTimeSpring extends Item {
 		setMaxDamage(16);
 		random = new Random();
 	}
-	
-	
-//	First code, could be done better I thought
-/*	@Override
-	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player) {
-		if (world != null) {
-			player.attackEntityFrom(DamageSource.generic, 2);
-			world.setWorldTime(world.getWorldTime() + 6250);
-			ItemStack returnStack = itemStack.copy();
-			returnStack.stackSize = itemStack.stackSize - 1;
-			return returnStack;
-		}
-		return itemStack;
-	} */
 	
 	@Override
 	@SideOnly(Side.CLIENT)
@@ -94,7 +80,6 @@ public class ItemTimeSpring extends Item {
 				int usage = getMaxItemUseDuration(itemStack) - itemInUseCount;
 				if (usage > 100)
 					usage = 100;
-				player.attackEntityFrom(DamageSource.generic, usage / 5);
 				world.setWorldTime(world.getWorldTime() + 125 * usage);
 				itemStack.setItemDamage(itemStack.getItemDamage() + 1);;
 				if (itemStack.getItemDamage() >= 16) {
@@ -102,7 +87,8 @@ public class ItemTimeSpring extends Item {
 				} else {
 					player.setCurrentItemOrArmor(0, itemStack);
 				}
-				world.playSoundAtEntity(player, "juicewares:timeclock", 1.0F, random.nextFloat());		
+				world.playSoundAtEntity(player, "juicewares:timeclock", 1.0F, random.nextFloat());	
+				player.attackEntityFrom(CustomDamageSource.timeWound, usage / 5);
 			} 
 		}
 

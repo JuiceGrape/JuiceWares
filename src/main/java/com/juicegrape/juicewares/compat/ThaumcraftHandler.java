@@ -47,6 +47,8 @@ public class ThaumcraftHandler {
 		
 		ThaumcraftApi.registerObjectTag(Items.stringreed.itemID, -1, (new AspectList().add(Aspect.PLANT, 1).add(Aspect.EARTH, 1).add(Aspect.AIR, 1)));
 		
+		ThaumcraftApi.registerObjectTag(Items.blazeflowerseeds.itemID, -1, (new AspectList().add(Aspect.FIRE, 4).add(Aspect.MAGIC, 2).add(Aspect.PLANT, 1)));
+		
 		//Entities
 		ThaumcraftApi.registerEntityTag(ModInformation.ID + "." + EntityInfo.EYEBALL_SYSTEM_NAME, (new AspectList().add(Aspect.MOTION, 4).add(Aspect.SENSES, 4)));
 

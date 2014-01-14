@@ -7,10 +7,12 @@ import net.minecraftforge.common.MinecraftForge;
 import com.juicegrape.juicewares.blocks.Blocks;
 import com.juicegrape.juicewares.compat.MoreEnchantsWrapper;
 import com.juicegrape.juicewares.compat.ThaumcraftHandler;
+import com.juicegrape.juicewares.compat.mfr.MFRHandler;
 import com.juicegrape.juicewares.config.ConfigHandler;
 import com.juicegrape.juicewares.entities.Entity;
 import com.juicegrape.juicewares.generation.GenerationHandler;
 import com.juicegrape.juicewares.items.Items;
+import com.juicegrape.juicewares.misc.CustomDamageSource;
 import com.juicegrape.juicewares.network.EventHooks;
 import com.juicegrape.juicewares.network.PacketHandler;
 import com.juicegrape.juicewares.potionEffects.PotionPreInit;
@@ -31,7 +33,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
 
-@Mod(modid = ModInformation.ID, name = ModInformation.NAME, version = ModInformation.VERSION, dependencies = "after:MoreEnchants;after:Thaumcraft;after:Forestry")
+@Mod(modid = ModInformation.ID, name = ModInformation.NAME, version = ModInformation.VERSION, dependencies = "after:MoreEnchants;after:Thaumcraft;after:Forestry;after:MineFactoryReloaded")
 @NetworkMod(channels = { ModInformation.CHANNEL }, clientSideRequired = true, serverSideRequired = false, packetHandler = PacketHandler.class)
 public class juicewares {
 
@@ -62,6 +64,7 @@ public class juicewares {
 		Items.dungeonLoot();
 		MinecraftForge.EVENT_BUS.register(new EventHooks());
 		PotionPreInit.preInit();
+		CustomDamageSource.init();
 		System.out.println("JuiceWares succesfully pre initialized (probably)"); 
 	}
 
@@ -83,11 +86,13 @@ public class juicewares {
 		new GenerationHandler();
 		System.out.println(ModInformation.MESSAGE);
 		new FuelHandler();
-		Entity.initNames();
 		Entity.initEggs();
 		Entity.initSpawns();
 		if (Loader.isModLoaded("Thaumcraft")) {
 			ThaumcraftHandler.init();
+		}
+		if (Loader.isModLoaded("MineFactoryReloaded")) {
+			MFRHandler.init();
 		}
 		
 		System.out.println("JuiceWares succesfully initialized (probably)"); 
