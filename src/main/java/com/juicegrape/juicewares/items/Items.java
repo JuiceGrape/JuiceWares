@@ -78,6 +78,9 @@ public class Items {
 	
 	public static void addOreDictionary() {
 		OreDictionary.registerOre("gemEmerald", new ItemStack(Item.emerald));
+		
+		OreDictionary.registerOre("itemLens", lens);
+		OreDictionary.registerOre("itemHemp", stringreed);
 	}
 	
 	public static void miscInit() {

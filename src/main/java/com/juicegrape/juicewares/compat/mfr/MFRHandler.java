@@ -1,14 +1,14 @@
 package com.juicegrape.juicewares.compat.mfr;
 
-import powercrystals.minefactoryreloaded.api.FactoryRegistry;
+import powercrystals.minefactoryreloaded.api.FarmingRegistry;
 
 public class MFRHandler {
 
 	
 	public static void init() {
-		FactoryRegistry.registerHarvestable(new BlazeFlowerMFRCompat());
-		FactoryRegistry.registerHarvestable(new HempBlockMFRCompat());
-		FactoryRegistry.registerPlantable(new HempItemMFRCompat());
-		FactoryRegistry.registerPlantable(new BlazeFlowerSeedsMFRCompat());
+		FarmingRegistry.registerHarvestable(new BlazeFlowerMFRCompat());
+		FarmingRegistry.registerHarvestable(new HempBlockMFRCompat());
+		FarmingRegistry.registerPlantable(new HempItemMFRCompat());
+		FarmingRegistry.registerPlantable(new BlazeFlowerSeedsMFRCompat());
 	}
 }

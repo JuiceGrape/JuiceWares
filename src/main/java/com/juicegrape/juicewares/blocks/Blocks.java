@@ -1,6 +1,7 @@
 package com.juicegrape.juicewares.blocks;
 
 import net.minecraft.block.Block;
+import net.minecraftforge.oredict.OreDictionary;
 import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
@@ -42,5 +43,11 @@ public class Blocks {
 		LanguageRegistry.addName(meatyore, BlockInfo.MEATYORE_NAME);
 		
 		LanguageRegistry.addName(altar, BlockInfo.ALTAR_NAME);
+	}
+	
+	public static void addOreDict() {
+		
+		OreDictionary.registerOre("oreMeat", meatyore);
+		
 	}
 }
