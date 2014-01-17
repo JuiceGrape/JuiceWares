@@ -9,6 +9,7 @@ import net.minecraft.client.renderer.texture.IconRegister;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Icon;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 import com.juicegrape.juicewares.items.Items;
@@ -20,10 +21,53 @@ public class BlockBlazeFlower extends BlockNetherStalk {
 
 	protected BlockBlazeFlower(int id) {
 		super(id);
-		setBlockBounds(0, 0, 0, 1F, 1F, 1F);
+		float f1 = 0.125F;
+		setBlockBounds(0.5F - f1, 0F, 0.5F - f1, 0.5F + f1, 1.5F * f1, 0.5F + f1);
 		setUnlocalizedName(BlockInfo.BLAZEFLOWER_UNLOCALIZED_NAME);
 		random = new Random();
 	}
+	
+	@Override
+	public void setBlockBoundsBasedOnState(IBlockAccess iBlock, int x, int y, int z) {
+		int meta = iBlock.getBlockMetadata(x, y, z);
+		float f = 0.0625F;
+		float height;
+		switch (meta) {
+		case 0:
+		case 1:
+		case 2:
+		case 3:
+			height = 3F*f;
+			break;
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+			height = 5F*f;
+			break;
+		case 8:
+		case 9:
+		case 10:
+		case 11:
+			height = 7F*f;
+			break;
+		case 12:
+		case 13:
+		case 14:
+			height = 11F*f;
+			break;
+		case 15:	
+			height = 15F*f;
+			break;
+		default:
+			height = 3F*f;
+			break;
+		}
+		float f1 = 0.125F;
+		setBlockBounds(0.5F - f1, 0F, 0.5F - f1, 0.5F + f1, height, 0.5F + f1);
+	}
+	
+	
 	
 	@Override
 	public int getRenderType() {

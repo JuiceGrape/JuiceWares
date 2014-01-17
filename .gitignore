@@ -7,7 +7,7 @@ mods/
 gradle/
 eclipse/
 crash-reports/
-config/
+config/*
 build/
 bin/
 .settings/
