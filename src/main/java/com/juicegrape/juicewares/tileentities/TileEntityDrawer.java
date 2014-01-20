@@ -1,18 +1,15 @@
 package com.juicegrape.juicewares.tileentities;
 
-import java.io.ByteArrayOutputStream;
-import java.io.DataOutputStream;
-
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.nbt.NBTTagList;
+import net.minecraft.network.INetworkManager;
 import net.minecraft.network.packet.Packet;
-import net.minecraft.network.packet.Packet250CustomPayload;
+import net.minecraft.network.packet.Packet132TileEntityData;
 import net.minecraft.tileentity.TileEntity;
 
-import com.juicegrape.juicewares.ModInformation;
 import com.juicegrape.juicewares.blocks.BlockInfo;
 
 import cpw.mods.fml.relauncher.Side;
@@ -144,86 +141,15 @@ public class TileEntityDrawer extends TileEntity implements IInventory
     
     @Override
     public Packet getDescriptionPacket() {
-    	ItemStack itemStack = getStackInSlot(showSlot);
-    	ItemStack itemStack2 = getStackInSlot(showSlot2);
-    	ByteArrayOutputStream bos;
-    	DataOutputStream outputStream;
-    	
-    	if (itemStack != null) {
-    		if (itemStack2 != null) {
-    	    	bos = new ByteArrayOutputStream(37);
-    	    	outputStream = new DataOutputStream(bos);
-    	    	
-    	    	try {
-    	    		outputStream.writeByte(1);
-    	    		outputStream.writeInt(xCoord);
-    	    		outputStream.writeInt(yCoord);
-    	    		outputStream.writeInt(zCoord);
-    	    		outputStream.writeInt(itemStack.itemID);
-    	    		outputStream.writeInt(itemStack.getItemDamage());
-    	    		outputStream.writeInt(itemStack.stackSize);
-    	    		outputStream.writeInt(itemStack2.itemID);
-    	    		outputStream.writeInt(itemStack2.getItemDamage());
-    	    		outputStream.writeInt(itemStack2.stackSize);
-    	    	} catch (Exception ex) {
-    	    		ex.printStackTrace();
-    	    	}
-    	    	
-    		} else {
-    			bos = new ByteArrayOutputStream(25);
-    	    	outputStream = new DataOutputStream(bos);
-    	    	
-    	    	try {
-    	    		outputStream.writeByte(2);
-    	    		outputStream.writeInt(xCoord);
-    	    		outputStream.writeInt(yCoord);
-    	    		outputStream.writeInt(zCoord);
-    	    		outputStream.writeInt(itemStack.itemID);
-    	    		outputStream.writeInt(itemStack.getItemDamage());
-    	    		outputStream.writeInt(itemStack.stackSize);
-    	    	} catch (Exception ex) {
-    	    		ex.printStackTrace();
-    	    	}
-    	    	
-    	    	
-    		}
-    	} else if (itemStack2 != null) {
-    		bos = new ByteArrayOutputStream(25);
-	    	outputStream = new DataOutputStream(bos);
-	    	
-	    	try {
-	    		outputStream.writeByte(3);
-	    		outputStream.writeInt(xCoord);
-	    		outputStream.writeInt(yCoord);
-	    		outputStream.writeInt(zCoord);
-	    		outputStream.writeInt(itemStack2.itemID);
-	    		outputStream.writeInt(itemStack2.getItemDamage());
-	    		outputStream.writeInt(itemStack2.stackSize);
-	    	} catch (Exception ex) {
-	    		ex.printStackTrace();
-	    	}
-    	} else {
-    		bos = new ByteArrayOutputStream(13);
-	    	outputStream = new DataOutputStream(bos);
-	    	
-	    	try {
-	    		outputStream.writeByte(4);
-	    		outputStream.writeInt(xCoord);
-	    		outputStream.writeInt(yCoord);
-	    		outputStream.writeInt(zCoord);
-
-	    	} catch (Exception ex) {
-	    		ex.printStackTrace();
-	    	}
-    	}
-    	
-    	Packet250CustomPayload packet = new Packet250CustomPayload();
-    	packet.channel = ModInformation.CHANNEL;
-    	packet.data = bos.toByteArray();
-    	packet.length = bos.size();
-    	return packet;
-    	
-    } 
+    	NBTTagCompound nbtTag = new NBTTagCompound();
+    	writeToNBT(nbtTag);
+    	return new Packet132TileEntityData(xCoord, yCoord, zCoord, 1, nbtTag);
+    }
+    
+    @Override
+    public void onDataPacket(INetworkManager net, Packet132TileEntityData packet) {
+    	readFromNBT(packet.data);
+    }
 
     /**
      * If this returns false, the inventory name will be used as an unlocalized name, and translated into the player's

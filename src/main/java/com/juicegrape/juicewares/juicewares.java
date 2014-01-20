@@ -80,6 +80,8 @@ public class juicewares {
 		Potions.init();
 		proxy.addStringLocalization();
 		Items.miscInit();
+		Items.addOreDictionary();
+		Blocks.addOreDict();
 		CustomRecipes.regCustomModRecipes();
 		VanillaItemRecipes.regCustomVanillaRecipes();
 		new GenerationHandler();
@@ -103,8 +105,7 @@ public class juicewares {
 			ThaumcraftHandler.Postinit();
 		}
 		PrimalEnchanting.init();
-		Items.addOreDictionary();
-		Blocks.addOreDict();
+
 		System.out.println("JuiceWares succesfully post initialized (probably)");
 		
 

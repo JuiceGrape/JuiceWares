@@ -1,17 +1,15 @@
 package com.juicegrape.juicewares.tileentities;
 
-import java.io.ByteArrayOutputStream;
-import java.io.DataOutputStream;
 import java.util.Random;
 
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.network.INetworkManager;
 import net.minecraft.network.packet.Packet;
-import net.minecraft.network.packet.Packet250CustomPayload;
+import net.minecraft.network.packet.Packet132TileEntityData;
 import net.minecraft.tileentity.TileEntity;
 
-import com.juicegrape.juicewares.ModInformation;
 import com.juicegrape.juicewares.items.Items;
 
 public class TileEntityAltar extends TileEntity {
@@ -170,13 +168,7 @@ public class TileEntityAltar extends TileEntity {
 	public boolean shouldSpawnParticles() {
 		return stoneDone;
 	}
-	
-	public void handleProxy(boolean hasStone, boolean hasLens, boolean isNormalLens, boolean stoneDone) {
-		this.hasStone = hasStone;
-		this.hasLens = hasLens;
-		this.isNormalLens = isNormalLens;
-		this.stoneDone = stoneDone;
-	}
+
 	
 	private EntityItem createItem(ItemStack itemStack) {
 		float xThang = random.nextFloat() * 0.8F + 0.1F;
@@ -189,29 +181,16 @@ public class TileEntityAltar extends TileEntity {
         return entityItem;
 	}
 	
-	@Override
-	public Packet getDescriptionPacket() {
-		ByteArrayOutputStream bos = new ByteArrayOutputStream(17);
-    	DataOutputStream ops = new DataOutputStream(bos);
-    	
-    	try {
-    		ops.write(5);
-    		ops.writeInt(xCoord);
-    		ops.writeInt(yCoord);
-    		ops.writeInt(zCoord);
-    		ops.writeBoolean(hasStone);
-    		ops.writeBoolean(hasLens);
-    		ops.writeBoolean(isNormalLens);
-    		ops.writeBoolean(stoneDone);
-    		} catch (Exception ex) {
-    		ex.printStackTrace();
-    	}
-    	
-    	Packet250CustomPayload packet = new Packet250CustomPayload();
-    	packet.channel = ModInformation.CHANNEL;
-    	packet.data = bos.toByteArray();
-    	packet.length = bos.size();
-    	return packet;
-	}
+    @Override
+    public Packet getDescriptionPacket() {
+    	NBTTagCompound nbtTag = new NBTTagCompound();
+    	writeToNBT(nbtTag);
+    	return new Packet132TileEntityData(xCoord, yCoord, zCoord, 1, nbtTag);
+    }
+    
+    @Override
+    public void onDataPacket(INetworkManager net, Packet132TileEntityData packet) {
+    	readFromNBT(packet.data);
+    }
 	
 }

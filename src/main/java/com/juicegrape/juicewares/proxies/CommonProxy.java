@@ -35,18 +35,6 @@ public class CommonProxy {
 		return 0;
 	}
 	
-	public void updateTileEntityDrawer(int x, int y, int z, int slot) {
-		
-	}
-	
-	public void handleCabinet(int x, int y, int z, int itemID, int stackSize, int metaData, int slot) {
-		
-	}
-	
-	public void handleAltar(int x, int y, int z, boolean hasStone, boolean hasLens, boolean isNormalLens, boolean stoneDone) {
-		
-	}
-	
 	public void addStringLocalization() {
 		
 	}

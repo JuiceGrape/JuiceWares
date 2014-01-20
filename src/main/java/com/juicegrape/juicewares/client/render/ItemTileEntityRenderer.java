@@ -28,8 +28,12 @@ public class ItemTileEntityRenderer implements IItemRenderer {
 	@Override
 	public boolean shouldUseRenderHelper(ItemRenderType type, ItemStack item,
 			ItemRendererHelper helper) {
-
-		return true;
+		switch(helper) {
+		case BLOCK_3D:
+			return false;
+		default:
+			return true;
+		}
 	}
 
 	@Override
