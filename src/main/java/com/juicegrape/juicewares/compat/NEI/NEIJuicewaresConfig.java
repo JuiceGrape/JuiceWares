@@ -1,5 +1,7 @@
 package com.juicegrape.juicewares.compat.NEI;
 
+import com.juicegrape.juicewares.blocks.Blocks;
+
 import codechicken.nei.api.API;
 import codechicken.nei.api.IConfigureNEI;
 
@@ -7,9 +9,10 @@ public class NEIJuicewaresConfig implements IConfigureNEI {
 
 	@Override
 	public void loadConfig() {
-//		System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++TEST");
 		API.registerRecipeHandler(new PrimalEnchantingNEI());
 		API.registerUsageHandler(new PrimalEnchantingNEI());
+		API.hideItem(Blocks.blazeflower.blockID);
+		API.hideItem(Blocks.stringreed.blockID);
 	}
 
 	@Override
