@@ -130,5 +130,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/Bas/Documents/aww yeah mods n shit/JuiceWares/mods/NotEnoughItems-dev 1.6.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Bas/Documents/aww yeah mods n shit/JuiceWares/libs/MoreEnchants-MC1.6-1.2.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

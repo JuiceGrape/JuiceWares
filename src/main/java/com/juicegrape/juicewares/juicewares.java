@@ -5,7 +5,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 
 import com.juicegrape.juicewares.blocks.Blocks;
-import com.juicegrape.juicewares.compat.MoreEnchantsWrapper;
 import com.juicegrape.juicewares.compat.ThaumcraftHandler;
 import com.juicegrape.juicewares.compat.mfr.MFRHandler;
 import com.juicegrape.juicewares.config.ConfigHandler;
@@ -48,8 +47,6 @@ public class juicewares {
 			return new ItemStack(Items.stringreed);
 		}
 	};
-	
-	public static MoreEnchantsWrapper compatMoreEnchants;
 
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
@@ -72,11 +69,7 @@ public class juicewares {
 	public void init(FMLInitializationEvent event) {
 		Items.addNames();
 		Blocks.addNames();
-		if(Loader.isModLoaded("MoreEnchants")) {
-			compatMoreEnchants = new MoreEnchantsWrapper();
-		} else {
-			compatMoreEnchants = null;
-		}
+
 		Potions.init();
 		proxy.addStringLocalization();
 		Items.miscInit();

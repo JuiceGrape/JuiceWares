@@ -5,11 +5,11 @@ import net.minecraft.enchantment.Enchantment;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-import com.juicegrape.juicewares.juicewares;
-import com.juicegrape.juicewares.compat.MoreEnchantsWrapper;
+import com.demoxin.minecraft.moreenchants.MoreEnchants;
 import com.juicegrape.juicewares.config.Enabling;
 import com.juicegrape.juicewares.items.Items;
 
+import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class PrimalEnchanting {
@@ -65,16 +65,33 @@ public class PrimalEnchanting {
 					GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Block.cactus, Enchantment.thorns, 1));
 				}
 				
-				if (juicewares.compatMoreEnchants != null) {
-					if (MoreEnchantsWrapper.venom.canApply(tool)) {
-						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], new ItemStack(Item.potion, 1, 8260), MoreEnchantsWrapper.venom, 1));
+				if(Loader.isModLoaded("MoreEnchants") && tool.getItem().itemID != Item.book.itemID) {
+					if (MoreEnchants.enchantVenom != null && MoreEnchants.enchantVenom.canApply(tool)) {
+						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], new ItemStack(Item.potion, 1, 8260), MoreEnchants.enchantVenom, 1));
 					}
-					if (MoreEnchantsWrapper.mending.canApply(tool)) {
-						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], new ItemStack(Item.potion, 1, 8229), MoreEnchantsWrapper.mending, 1));
+					if (MoreEnchants.enchantMending != null && MoreEnchants.enchantMending.canApply(tool)) {
+						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], new ItemStack(Item.potion, 1, 8229), MoreEnchants.enchantMending, 1));
 					}
-					if (MoreEnchantsWrapper.defusing.canApply(tool)) {
-						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.redstone, MoreEnchantsWrapper.defusing, 1));
+					if (MoreEnchants.enchantDefusing != null && MoreEnchants.enchantDefusing.canApply(tool)) {
+						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.redstone, MoreEnchants.enchantDefusing, 1));
 					}
+					if (MoreEnchants.enchantHarvest != null && MoreEnchants.enchantHarvest.canApply(tool)) {
+						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.diamond, MoreEnchants.enchantHarvest, 1));
+					}
+					if (MoreEnchants.enchantIceAspect != null && MoreEnchants.enchantIceAspect.canApply(tool)) {
+						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Block.ice, MoreEnchants.enchantIceAspect, 1));
+					}
+					if (MoreEnchants.enchantDisjunction != null && MoreEnchants.enchantDisjunction.canApply(tool)) {
+						
+					}
+					if (MoreEnchants.enchantDowsing != null && MoreEnchants.enchantDowsing.canApply(tool)) {
+						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.snowball, MoreEnchants.enchantDowsing, 1));
+					}
+					if (MoreEnchants.enchantPoisonProtect != null && MoreEnchants.enchantPoisonProtect.canApply(tool)) {
+						
+					}
+					
+					
 				}	
 			}
 		}	
