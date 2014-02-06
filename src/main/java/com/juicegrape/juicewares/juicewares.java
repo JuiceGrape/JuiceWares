@@ -95,7 +95,6 @@ public class juicewares {
 		if (Loader.isModLoaded("MineFactoryReloaded")) {
 			MFRHandler.init();
 		}
-		
 		System.out.println("JuiceWares succesfully initialized (probably)"); 
 	}
 
@@ -107,7 +106,6 @@ public class juicewares {
 		PrimalEnchanting.init();
 
 		System.out.println("JuiceWares succesfully post initialized (probably)");
-		
 
 	}
 }
