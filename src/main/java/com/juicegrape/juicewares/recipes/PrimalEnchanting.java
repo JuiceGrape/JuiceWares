@@ -76,13 +76,13 @@ public class PrimalEnchanting {
 						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.redstone, MoreEnchants.enchantDefusing, 1));
 					}
 					if (MoreEnchants.enchantHarvest != null && MoreEnchants.enchantHarvest.canApply(tool)) {
-						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.diamond, MoreEnchants.enchantHarvest, 1));
+						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.appleGold, MoreEnchants.enchantHarvest, 1));
 					}
 					if (MoreEnchants.enchantIceAspect != null && MoreEnchants.enchantIceAspect.canApply(tool)) {
 						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Block.ice, MoreEnchants.enchantIceAspect, 1));
 					}
 					if (MoreEnchants.enchantDisjunction != null && MoreEnchants.enchantDisjunction.canApply(tool)) {
-						
+						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Block.slowSand, MoreEnchants.enchantDisjunction, 1));
 					}
 					if (MoreEnchants.enchantDowsing != null && MoreEnchants.enchantDowsing.canApply(tool)) {
 						GameRegistry.addRecipe(new PrimalEnchantRecipe(Item.itemsList[i], Item.snowball, MoreEnchants.enchantDowsing, 1));
